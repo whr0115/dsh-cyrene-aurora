@@ -1,0 +1,75 @@
+{
+  "name": "dsh-cyrene-aurora",
+  "version": "1.0.0",
+  "description": "昔涟 · 拾光：粉白毛玻璃主题 + 开机开屏动画，含壁纸轮换、人格、表情包、长期记忆、世界书与开屏问候 | A Cyrene frosted-glass theme with a launch splash for DeepSeek Harness",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "stickers.json",
+    "splash-art.svg",
+    "chat-art-dark.svg",
+    "chat-art-light.svg",
+    "Background",
+    "meme/*.png",
+    "meme/*.jpeg",
+    "README.md",
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "persona",
+    "splash",
+    "cyrene",
+    "frosted-glass"
+  ],
+  "author": {
+    "name": "whr0115",
+    "url": "https://github.com/whr0115"
+  },
+  "contributors": [
+    {
+      "name": "berhbro"
+    },
+    {
+      "name": "Cyrene Impressions contributors"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whr0115/dsh-cyrene-aurora.git"
+  },
+  "homepage": "https://github.com/whr0115/dsh-cyrene-aurora#readme",
+  "bugs": {
+    "url": "https://github.com/whr0115/dsh-cyrene-aurora/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

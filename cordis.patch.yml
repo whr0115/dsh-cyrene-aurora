@@ -1,0 +1,5 @@
+# 昔涟 · 拾光（dsh-cyrene-aurora）bundle patch：把本包插入 profile 的插件树。
+# 安装：把整个目录复制到任意位置，然后在 profile 里 `dsh plugin add <目录>`（或按 README 手装）。
+- insert:
+    - id: ui-cyrene-aurora
+      name: dsh-cyrene-aurora

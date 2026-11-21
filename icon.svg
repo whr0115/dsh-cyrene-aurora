@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Cyrene aurora">
+  <defs>
+    <linearGradient id="cyreneStar" x1="10" y1="3" x2="30" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6b9d6"/>
+      <stop offset="0.55" stop-color="#e37fb4"/>
+      <stop offset="1" stop-color="#b58ae0"/>
+    </linearGradient>
+    <linearGradient id="cyreneRibbon" x1="3" y1="28" x2="33" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4a7cc" stop-opacity="0.15"/>
+      <stop offset="0.45" stop-color="#e37fb4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#a98ce4" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <path d="M3 28.5c5.5-5.6 9.6 1.7 16-3.4 5.2-4.1 9-1.3 13.6-4.6" fill="none" stroke="url(#cyreneRibbon)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 3.5c0.8 6 3.7 8.9 9.9 10.2-6.2 1.3-9.1 4.2-9.9 10.2-0.8-6-3.7-8.9-9.9-10.2 6.2-1.3 9.1-4.2 9.9-10.2Z" fill="url(#cyreneStar)"/>
+  <path d="M28.6 5.2c0.25 1.9 1.15 2.8 3.1 3.2-1.95 0.4-2.85 1.3-3.1 3.2-0.25-1.9-1.15-2.8-3.1-3.2 1.95-0.4 2.85-1.3 3.1-3.2Z" fill="#f0a8cb" opacity="0.9"/>
+</svg>
